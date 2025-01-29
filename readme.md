@@ -25,7 +25,7 @@ Pour visualiser le site en local, suivez les étapes ci-dessous :
 
 1. Clonez le dépôt :
     ```bash
-    git clone https://github.com/votre-utilisateur/projet-prosit-lebonplan.git
+    git clone https://github.com/betasown/Web-PR1
     ```
 2. Ouvrez le fichier `index.html` dans votre navigateur web.
 
