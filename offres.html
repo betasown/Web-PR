@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Postuler à une offre de stage</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div><img src="./images/logo-lbp-header.png" alt="Lebonplan - Le meilleur site d'annonces en ligne"></div>
+    </header>
+
+    <main>
+        <nav>
+            <div>
+                <a href="index.html">Accueil</a>&nbsp;|&nbsp;
+                <a href="a-propos.html">A propos</a>&nbsp;|&nbsp;
+                <a href="offres.html">Offres</a>&nbsp;|&nbsp;
+                <a href="contact.html">Contact</a>
+            </div><div>
+                <a href="connexion.html">Connexion</a>&nbsp;|&nbsp;
+                <a href="inscription.html">Inscription</a>
+            </div>
+        </nav>
+
+        <h2>Postuler à une offre de stage</h2>
+        <p>Vous pouvez ici répondre directement à l’offre de stage qui a été déposée par l’entreprise.</p>
+
+        <section class="offer-details">
+            <h3>Stage - Administrateur Système et Réseau H/F</h3>
+            <p class="subtitle"><strong>IBM | Pornichet - 44 | Publiée le 29/01/2025 | Réf. 123X744</strong></p>
+
+            <div class="tags">
+                <span>3 mois</span>
+                <span>Bac+2</span>
+                <span>Bac+3</span>
+                <span>Systèmes, Réseaux, Cloud</span>
+            </div>
+        </section>
+
+        <h3>Envoyez votre candidature dès maintenant !</h2>
+
+        <form class="application-form">
+            <label for="civilite">Civilité</label>
+            <select id="civilite">
+                <option value="madame">Madame</option>
+                <option value="monsieur">Monsieur</option>
+            </select>
+
+            <label for="nom">Nom</label>
+            <input type="text" id="nom" required>
+
+            <label for="prenom">Prénom</label>
+            <input type="text" id="prenom" required>
+
+            <label for="courriel">Courriel</label>
+            <input type="email" id="courriel" required>
+
+            <fieldset>
+                <legend>A propos de vous</legend>
+                <input type="checkbox" id="permis">
+                <label for="permis">Permis B</label>
+                <input type="checkbox" id="vehicule">
+                <label for="vehicule">Véhicule</label>
+                <input type="checkbox" id="certifications">
+                <label for="certifications">Certifications (Microsoft, Cisco...)</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Vous êtes majeur ?</legend>
+                <input type="radio" id="majeur" name="age" value="majeur">
+                <label for="majeur">Majeur</label>
+                <input type="radio" id="mineur" name="age" value="mineur">
+                <label for="mineur">Mineur</label>
+            </fieldset>
+            
+
+            <label for="message">Votre message au recruteur</label>
+            <textarea id="message"></textarea>
+
+            <label for="cv" class="btn file-btn">Ajoute mon CV</label>
+            <input type="file" id="cv" accept=".pdf, .doc, .docx, .odt, .rtf, .jpg, .png" hidden>
+
+            <div>
+                <button type="submit" class="btn">Postuler</button>
+                <button type="reset" class="btn-secondary">Réinitialiser</button>
+            </div>
+            
+            <p class="terms">
+                Ne cliquant sur "postuler", vous acceptez les <a href="cgu.html"target="_blank">CGU</a> et déclarez avoir pris connaissance de <a href="ml.html" target="_blank">la protection des données</a>  de notre site.
+            </p>
+            
+        </form>
+    </main>
+    <footer>
+        <p>©2024 - Tous droits réservés - <a href="ml.html" target="_blank">Mention légal</a> - WebAll</p>
+    </footer>
+</body>
+</html>
+
+

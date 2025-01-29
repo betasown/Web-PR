@@ -1,0 +1,243 @@
+/* =======================
+   RESET GÉNÉRAL
+   ======================= */
+   body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+html, body {
+    height: 100%;  /* Permet au body de prendre toute la hauteur de la page */
+    margin: 0;
+    display: flex;
+    flex-direction: column; /* Organise la page en colonne */
+}
+
+main {
+    flex: 1; /* Prend tout l’espace disponible pour pousser le footer en bas */
+}
+
+/* =======================
+   HEADER
+   ======================= */
+header {
+    padding: 10px;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+header img {
+    display: block;
+    margin: auto;
+}
+
+/* =======================
+   NAVIGATION
+   ======================= */
+   nav {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    flex-wrap: wrap; /* Permet de passer à la ligne si nécessaire */
+}
+
+nav .menu-links, nav .auth-links {
+    display: flex;
+    gap: 15px;
+}
+
+/* Container pour les liens */
+nav div {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap; /* Ajoute un retour à la ligne sur mobile si nécessaire */
+}
+
+/* Les liens */
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+/* Changement de style au survol */
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+/* Bouton d'inscription spécifique */
+nav div:last-child a:last-child {
+    border: 2px solid white;
+    background-color: white;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+nav div:last-child a:last-child:hover {
+    background-color: #ddd;
+}
+
+/* =======================
+   CONTENU PRINCIPAL
+   ======================= */
+main {
+    flex: 1; /* Permet d'occuper tout l'espace disponible pour repousser le footer */
+    padding: 20px;
+}
+
+/* TITRES */
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* =======================
+   FORMULAIRE DE CANDIDATURE
+   ======================= */
+   .application-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 500px;
+    margin: 0; /* Supprime les marges automatiques */
+    align-items: flex-start; /* Aligne les éléments à gauche */
+}
+
+/* Labels en dehors des fieldset : style original */
+label {
+    text-transform: uppercase;
+    color: #E86C2C;
+    font-weight: bold;
+}
+
+/* Labels dans les fieldset : texte normal */
+fieldset label {
+    text-transform: none; /* Texte normal */
+    color: inherit; /* Utilise la couleur par défaut */
+    font-weight: normal; /* Police normale */
+}
+
+/* Legend des fieldset en orange */
+fieldset legend {
+    text-transform: uppercase;
+    color: #E86C2C;
+    font-weight: bold;
+}
+
+/* Boutons */
+button {
+    cursor: pointer;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
+
+.btn {
+    background-color: #E86C2C;
+    color: white;
+}
+
+.btn:hover {
+    background-color: #D95A1B;
+}
+
+.btn-secondary {
+    background-color: #ccc;
+}
+
+/* Aligner les boutons côte à côte */
+.application-form button {
+    display: inline-block; /* Ou utiliser flex si besoin */
+    margin-right: 10px; /* Espace entre les boutons */
+}
+
+.application-form button:last-child {
+    margin-right: 0; /* Pas de marge à droite pour le dernier bouton */
+}
+
+
+/* =======================
+   BOUTON D'UPLOAD DE FICHIER (CV)
+   ======================= */
+.file-btn {
+    display: inline-block;
+    background-color: #E86C2C;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    text-align: center;
+    border: none;
+}
+
+.file-btn:hover {
+    background-color: #D95A1B;
+}
+
+/* =======================
+   TAGS (EX : COMPÉTENCES)
+   ======================= */
+.tags {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.tags span {
+    border: 1px solid black;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
+
+/* =======================
+   LIENS ET TERMES LÉGAUX
+   ======================= */
+.terms {
+    font-size: 0.8rem;
+    color: #777;
+    margin-top: 20px;
+}
+
+.terms a {
+    color: #E86C2C;
+    text-decoration: none;
+}
+
+.terms a:hover {
+    text-decoration: underline;
+}
+
+/* =======================
+   FOOTER (RESTE COLLÉ EN BAS)
+   ======================= */
+   footer {
+    background-color: #333; /* Fond sombre */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 0.8rem;
+    width: 100%;
+}
+
+footer .legal-link {
+    color: #E86C2C;
+    text-decoration: none;
+}
+
+footer .legal-link:hover {
+    text-decoration: underline;
+}
