@@ -1,6 +1,6 @@
 # Projet Prosit - Lebonplan
 
-Ce dépôt GitHub contient le code source du projet **Lebonplan**, réalisé dans le cadre d'un **Prosit** dans l'école **CESI**.
+Ce dépôt GitHub contient le code source du projet **Lebonplan**, réalisé dans le cadre des **Prosit** dans l'école **CESI**.
 
 ## Description
 Lebonplan est un site web de recherche et de dépôt d'annonces de stages. Il permet aux utilisateurs de trouver des offres de stage dans divers domaines et de postuler directement en ligne. Le site propose également des fonctionnalités de connexion et d'inscription pour une expérience utilisateur personnalisée. Le site web est statique et ne possède pas de JavaScript. Il est uniquement composé de front-end avec des fichiers HTML et CSS.
