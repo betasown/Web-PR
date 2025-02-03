@@ -11,14 +11,14 @@
 }
 
 html, body {
-    height: 100%;  /* Permet au body de prendre toute la hauteur de la page */
+    height: 100%;  
     margin: 0;
     display: flex;
-    flex-direction: column; /* Organise la page en colonne */
+    flex-direction: column; 
 }
 
 main {
-    flex: 1; /* Prend tout l’espace disponible pour pousser le footer en bas */
+    flex: 1; 
 }
 
 /* =======================
@@ -45,7 +45,7 @@ header img {
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    flex-wrap: wrap; /* Permet de passer à la ligne si nécessaire */
+    flex-wrap: wrap; 
 }
 
 nav .menu-links, nav .auth-links {
@@ -57,7 +57,7 @@ nav .menu-links, nav .auth-links {
 nav div {
     display: flex;
     gap: 15px;
-    flex-wrap: wrap; /* Ajoute un retour à la ligne sur mobile si nécessaire */
+    flex-wrap: wrap; 
 }
 
 /* Les liens */
@@ -91,7 +91,7 @@ nav div:last-child a:last-child:hover {
    CONTENU PRINCIPAL
    ======================= */
 main {
-    flex: 1; /* Permet d'occuper tout l'espace disponible pour repousser le footer */
+    flex: 1; 
     padding: 20px;
 }
 
@@ -109,8 +109,8 @@ h2 {
     flex-direction: column;
     gap: 10px;
     max-width: 500px;
-    margin: 0; /* Supprime les marges automatiques */
-    align-items: flex-start; /* Aligne les éléments à gauche */
+    margin: 0; 
+    align-items: flex-start; 
 }
 
 /* Labels en dehors des fieldset : style original */
@@ -122,9 +122,9 @@ label {
 
 /* Labels dans les fieldset : texte normal */
 fieldset label {
-    text-transform: none; /* Texte normal */
-    color: inherit; /* Utilise la couleur par défaut */
-    font-weight: normal; /* Police normale */
+    text-transform: none; 
+    color: inherit; 
+    font-weight: normal; 
 }
 
 /* Legend des fieldset en orange */
@@ -158,12 +158,12 @@ button {
 
 /* Aligner les boutons côte à côte */
 .application-form button {
-    display: inline-block; /* Ou utiliser flex si besoin */
-    margin-right: 10px; /* Espace entre les boutons */
+    display: inline-block; 
+    margin-right: 10px; 
 }
 
 .application-form button:last-child {
-    margin-right: 0; /* Pas de marge à droite pour le dernier bouton */
+    margin-right: 0; 
 }
 
 
@@ -222,10 +222,10 @@ button {
 }
 
 /* =======================
-   FOOTER (RESTE COLLÉ EN BAS)
+    FOOTER 
    ======================= */
    footer {
-    background-color: #333; /* Fond sombre */
+    background-color: #333; 
     color: white;
     text-align: center;
     padding: 10px 0;
